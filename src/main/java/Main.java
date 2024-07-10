@@ -50,7 +50,7 @@ public class Main {
             double taxaConversao = getTaxaConversao(jsonobj, moedaDestino);
             double valorConvertido = valorParaConverter * taxaConversao;
 
-            System.out.println("Taxa de conversão de " + moedaBase + " para " + moedaDestino + ": " + taxaConversao;
+            System.out.println("Taxa de conversão de " + moedaBase + " para " + moedaDestino + ": " + taxaConversao);
             System.out.println(valorParaConverter + " " + moedaBase + " é igual a " + valorConvertido + " " + moedaDestino);
 
         } catch (Exception e) {
